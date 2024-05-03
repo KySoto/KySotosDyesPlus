@@ -1,0 +1,134 @@
+<AGFCosmetics>
+
+
+
+
+
+
+<!--Dye Bundles-->
+		<!--NOTE: these work a little weird, in the sense that you can "craft" a bundle only 1 at a time.-->
+		<append xpath="/items">
+			<item name="modDyeRedBundle">
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="149,52,54"/>
+				<property name="ItemTypeIcon" value="bundle"/>
+				<property name="HoldType" value="45"/>
+				<property name="DescriptionKey" value="dyeBundles"/>
+				<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+				<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+				<property name="Material" value="Morganic"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="SellableToTrader" value="false"/>
+				<property name="Group" value="Resources"/>
+				<property class="Action0">
+					<property name="Class" value="OpenBundle"/>
+					<property name="Delay" value="0"/>
+					<property name="Use_time" value="0"/>
+					<property name="Sound_start" value="close_garbage"/>
+					<property name="Create_item" value="modDyeRed"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeGreenBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="128,152,120"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeGreen"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeBlackBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="47,47,47"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeBlack"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeBlueBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="74,93,134"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeBlue"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeBrownBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="132,105,84"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeBrown"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyePinkBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="240,162,251"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyePink"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyePurpleBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="113,97,129"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyePurple"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeYellowBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="218,200,135"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeYellow"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeInvisibleBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,255,255"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeInvisible"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeOrangeBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="220,125,15"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeOrange"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+			<item name="modDyeWhiteBundle">
+				<property name="Extends" value="modDyeRedBundle"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,255,255"/>
+				<property class="Action0">
+					<property name="Create_item" value="modDyeWhite"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+				<item name="modDyeJaWoodlePurpleBundle">
+				<property name="CustomIcon" value="jawoodlepurple"/>
+				<property name="ItemTypeIcon" value="bundle"/>
+				<property name="HoldType" value="45"/>
+				<property name="DescriptionKey" value="dyeBundles"/>
+				<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+				<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+				<property name="Material" value="Morganic"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="SellableToTrader" value="false"/>
+				<property name="Group" value="Resources"/>
+				<property class="Action0">
+					<property name="Class" value="OpenBundle"/>
+					<property name="Delay" value="0"/>
+					<property name="Use_time" value="0"/>
+					<property name="Sound_start" value="close_garbage"/>
+					<property name="Create_item" value="JaWoodlePurple"/>
+					<property name="Create_item_count" value="1"/>
+				</property>
+			</item>
+		</append>
+	
+
+</AGFCosmetics>

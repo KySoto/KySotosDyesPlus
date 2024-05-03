@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+		    <Name value="KySotosBundledDyes" /> 
+			<DisplayName value="KySotos bundled dyes plus" /> 
+			<Version value="1.1.0.1" /> 
+			<Description value="adds 1 stack dye bundling for Darkness Falls and Invisible dye. It also adds in the ability to craft dyes since DF is removing that. Thanks goes to AGF for giving me permission to modify her original mod and create this." /> 
+			<Author value="KySoto" /> 
+			<Website value="" /> 	
+</xml>

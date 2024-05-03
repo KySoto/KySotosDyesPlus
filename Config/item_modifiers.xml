@@ -1,0 +1,29 @@
+<AGFCosmetics>
+
+
+
+
+
+<!--SECTION 3 = Invisible Dye and Orange Dye-->
+		<!--Invisible Dye to hide clothing items you don't want to see.-->
+		<append xpath="/item_modifiers">
+			<item_modifier name="modDyeInvisible" installable_tags="clothing,armor" modifier_tags="dye" type="attachment" cosmetic_install_chance="0">
+				<property name="DescriptionKey" value="modDyeInvisibleDesc"/>
+				<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+				<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+				<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,255,255"/>
+				<property name="Material" value="Mpaint"/>
+				<property name="Weight" value="20"/>
+
+				<item_property_overrides name="*">
+							<property name="UMA.Mesh" value=""/>
+							<property name="CustomIconTint" value="0,255,255"/>
+							<property name="UMA.ShowAltHair" value="false"/>
+				</item_property_overrides>
+						<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			</item_modifier>
+		</append>
+
+		
+
+</AGFCosmetics>
